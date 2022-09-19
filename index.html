@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Calculator form -->
+        <form id="calc_form" name="calculator">
+            <input type="text" name="viewer" class="viewer" />
+        </form>
+        <!-- End of calculator form -->
+
+        <!-- Buttons -->
+        <table>
+            <tr>
+                <td>
+                    <input type="button" class="button" value="+" />
+                </td>
+                <td>
+                    <input type="button" class="button" value="-" />
+                </td>
+                <td>
+                    <input type="button" class="button" value="*" />
+                </td>
+                <td>
+                    <input type="button" class="button" value="/" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" class="button" value="7" />
+                </td>
+                <td>
+                    <input type="button" class="button" value="8" />
+                </td>
+                <td>
+                    <input type="button" class="button" value="9" />
+                </td>
+                <td>
+                    <input type="button" class="button back" value="<" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" class="button" value="4" />
+                </td>
+                <td>
+                    <input type="button" class="button" value="5" />
+                </td>
+                <td>
+                    <input type="button" class="button" value="6" />
+                </td>
+                <td>
+                    <input type="button" class="button clear" value="C" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" class="button" value="1" />
+                </td>
+                <td>
+                    <input type="button" class="button" value="2" />
+                </td>
+                <td>
+                    <input type="button" class="button" value="3" />
+                </td>
+                <td rowspan="5">
+                    <input type="button" class="button equal" value="=" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="button" class="button zero-btn" value="0" />
+                </td>
+                <td>
+                    <input type="button" class="button" value="." />
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- End of main Container -->
+
+    <script src="./script.js"></script>
+</body>
+</html>
